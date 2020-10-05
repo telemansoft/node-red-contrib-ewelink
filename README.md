@@ -31,3 +31,9 @@ Step-by-step guide - https://youtu.be/DbBqa-rq31g
 
 ### Special Thanks
 - [@skydiver](https://github.com/skydiver) - [eWeLink API](https://github.com/skydiver/ewelink-api)
+
+支持ewelink-api最新版本v3.0.0
+支持电子邮件或电话号码在ewelink帐户注册的用户名
+
+modified by telemansoft
+2020.10.05
