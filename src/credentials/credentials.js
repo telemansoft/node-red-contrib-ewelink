@@ -16,7 +16,7 @@ module.exports = function (RED) {
 
     var re = /^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/;
     // Unpack credentials
-    if re.test(this.credentials.username) {
+    if (re.test(this.credentials.username)) {
       this.email = this.credentials.username;
       this.phoneNumber = null;
     } else {
