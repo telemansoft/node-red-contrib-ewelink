@@ -24,8 +24,8 @@ module.exports = {
         return resolve(credentialsNode.connection);
       }
 
-      // Logging in
-      credentialsNode.connection.login().then(response => {
+      // Get your access token, api key and region.
+      credentialsNode.connection.getCredentials().then(response => {
         // Check for errors in the response
         if (response.error) {
           this.setNodeStatusToDisconnected(node);
